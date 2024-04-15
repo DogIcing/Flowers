@@ -4,5 +4,5 @@ navbar.onreadystatechange = function() {
        document.getElementsByTagName("nav")[0].innerHTML = navbar.responseText;
     }
 };
-navbar.open("GET", "/assets/navbar.html", true);
+navbar.open("GET", "/Flowers/assets/navbar.html", true);
 navbar.send();
