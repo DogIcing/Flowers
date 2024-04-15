@@ -17,3 +17,4 @@ flower.onreadystatechange = function() {
 };
 flower.open("GET", "/Flowers/data/flowers.json", true);
 flower.send();
+// retry
