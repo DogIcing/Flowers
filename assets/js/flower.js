@@ -15,5 +15,5 @@ flower.onreadystatechange = function() {
        document.getElementById("description").innerHTML = flowerdata[id].description;
     }
 };
-flower.open("GET", "/data/flowers.json", true);
+flower.open("GET", "/Flowers/data/flowers.json", true);
 flower.send();
