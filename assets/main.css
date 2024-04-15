@@ -1,0 +1,17 @@
+body {
+    background-color: hsl(0,0%,10%);
+}
+* {
+    color: hsl(0,0%,96%)
+}
+.card-info {
+    font-weight: 300;
+    color: hsl(0,0%,10%);
+}
+._card-header {
+    font-weight: 500;
+    color: hsl(0,0%,10%);
+}
+.card {
+    background-color: #996633;
+}
