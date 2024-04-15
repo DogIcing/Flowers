@@ -1,0 +1,12 @@
+{
+    "ICEFLOWER": {
+        "title" : "Ice Flower",
+        "card_title" : "Ice Flower",
+        "image_url" : "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/CB8CFB7C-E6DC-43C2-A1E7-4DDF1F2EB6F2.png",
+        "colour" : "<span class=\"badge bg-primary\">Blue</span>",
+        "type" : "<span class=\"badge type-snow\">Snow</span>",
+        "found_in" : "<span class=\"badge type-snow\">Snowy Plains</span>",
+        "price" : 35,
+        "description":"The ice flower is an uncommon flower that spawns in the snowy plains. It has x amount of HP and spawns at a medium/large size. It can drop blue dye and other materials (see below). This flower was added in v0.6."
+    }
+}
