@@ -15,3 +15,7 @@ body {
 .card {
     background-color: #996633;
 }
+.flower-image {
+    border: 20px solid #cc9966;
+    border-radius: 30px;
+}
