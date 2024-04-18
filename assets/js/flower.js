@@ -13,6 +13,13 @@ flower.onreadystatechange = function() {
        document.getElementById("found-in").innerHTML = flowerdata[id].found_in;
        document.getElementById("sells-for").innerHTML = flowerdata[id].price;
        document.getElementById("description").innerHTML = flowerdata[id].description;
+        for (let i = 0; i < flowerdata[id].drops.length; i++) {
+            var row = document.getElementById("droptable").insertRow(-1);
+       var itemName = row.insertCell(0);
+       var rate = row.insertCell(1);
+            itemName.innerHTML = flowerdata[id].drops[i].item;
+            rate.innerHTML = flowerdata[id].drops[i].rate;
+        }
     }
 };
 flower.open("GET", "/Flowers/data/flowers.json", true);
