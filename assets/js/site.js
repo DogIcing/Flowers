@@ -31,10 +31,18 @@ navdata.onreadystatechange = function() {
            ul.classList.add("dropdown-menu");
 
            for (let ii = 0; ii < categories[i].subcategories.length; ii++) {
+               if (ii != 0) {
+             var dividerli = document.createElement("li");
+             var divider = document.createElement("hr");
+             divider.classList.add("dropdown-divider");
+             dividerli.appendChild(divider);
+             ul.appendChild(dividerli);
+             }
+               
              var subcategoryheaderli = document.createElement("li");
              var subcategoryheaderh6 = document.createElement("h6");
              subcategoryheaderh6.innerHTML = categories[i].subcategories[ii].name;
-             subcategoryheaderh6.classList.add("dropdown-item");
+             subcategoryheaderh6.classList.add("dropdown-header");
              subcategoryheaderli.appendChild(subcategoryheaderh6);
              ul.appendChild(subcategoryheaderli);
 
@@ -46,14 +54,6 @@ navdata.onreadystatechange = function() {
                link.classList.add("dropdown-item");
                dropdownitem.appendChild(link);
                ul.appendChild(dropdownitem);
-             }
-
-             if (ii != categories[i].subcategories.length) {
-             var dividerli = document.createElement("li");
-             var divider = document.createElement("hr");
-             divider.classList.add("dropdown-divider");
-             dividerli.appendChild(divider);
-             ul.appendChild(dividerli);
              }
            }
 
