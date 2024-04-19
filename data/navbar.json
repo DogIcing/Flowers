@@ -51,11 +51,11 @@
                     "values": [
                         {
                             "name": "Poison Flower",
-                            "link": "flower?id=REDFLOWER"
+                            "link": "flower?id=POISONFLOWER"
                         },
                         {
                             "name": "Stink Flower",
-                            "link": "flower?id=BLUEFLOWER"
+                            "link": "flower?id=STINKFLOWER"
                         }
                     ]
                 },
