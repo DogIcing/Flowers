@@ -44,7 +44,7 @@ navdata.onreadystatechange = function() {
                link.setAttribute("href", "/Flowers/" + categories[i].subcategories[ii].values[iii].link);
                link.classList.add("dropdown-item");
                dropdownitem.appendChild(link);
-               ul.appendChild(dropdownItem);
+               ul.appendChild(dropdownitem);
              }
 
              var dividerli = document.createElement("li");
