@@ -11,7 +11,7 @@ var navdata = new XMLHttpRequest();
 navdata.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        var categories = JSON.parse(this.responseText)
-       for (let i = 0; i < categories.length; i++) {
+       for (let i = 0; i < categories.categories.length; i++) {
          var li = document.createElement("li");
          li.classList.add("nav-item");
          if (categories[i].dropdown = true) {
