@@ -63,3 +63,5 @@ navdata.onreadystatechange = function() {
 };
 navdata.open("GET", "/Flowers/data/navbar.json", true);
 navdata.send();
+
+// retry because github wont deploy to pages
