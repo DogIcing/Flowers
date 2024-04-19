@@ -43,7 +43,7 @@ navdata.onreadystatechange = function() {
                link.innerHTML = categories[i].subcategories[ii].values[iii].name;
                link.setAttribute("href", "/Flowers/" + categories[i].subcategories[ii].values[iii].link);
                link.classList.add("dropdown-item");
-               dropdownItem.appendChild(link);
+               dropdownitem.appendChild(link);
                ul.appendChild(dropdownItem);
              }
 
