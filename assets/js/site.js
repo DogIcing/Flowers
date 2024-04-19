@@ -56,7 +56,7 @@ navdata.onreadystatechange = function() {
 
            li.appendChild(a);
            li.appendChild(ul);
-           console.log(li);
+           document.getElementById("navbar").appendChild(li);
          }
        }
     }
