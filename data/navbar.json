@@ -1,0 +1,137 @@
+"categories" : [
+  {
+    "name":"Flowers",
+    "dropdown":true,
+    "subcategories": [
+      {
+        "name":"Basic",
+        "values": [
+          {
+            "name":"Red Flower"
+            "link":"flower?id=REDFLOWER"
+          },
+          {
+            "name":"Blue Flower"
+            "link":"flower?id=BLUEFLOWER"
+          },
+          {
+            "name":"Purple Flower"
+            "link":"flower?id=PURPLEFLOWER"
+          },
+          {
+            "name":"Green Flower"
+            "link":"flower?id=GREENFLOWER"
+          },
+          {
+            "name":"Funk Flower"
+            "link":"flower?id=FUNKFLOWER"
+          }
+        ]
+      },
+      {
+        "name":"Tulip",
+        "values": [
+          {
+            "name":"Red Tulip"
+            "link":"flower?id=REDTULIP"
+          },
+          {
+            "name":"Blue Tulip"
+            "link":"flower?id=BLUETULIP"
+          },
+          {
+            "name":"Yellow Tulip"
+            "link":"flower?id=YELLOWTULIP"
+          }
+        ]
+      },
+      {
+        "name":"Swamp",
+        "values": [
+          {
+            "name":"Poison Flower"
+            "link":"flower?id=REDFLOWER"
+          },
+          {
+            "name":"Stink Flower"
+            "link":"flower?id=BLUEFLOWER"
+          }
+        ]
+      },
+      {
+        "name":"Snow",
+        "values": [
+          {
+            "name":"Snow Flower"
+            "link":"flower?id=SNOWFLOWER"
+          },
+          {
+            "name":"Ice Flower"
+            "link":"flower?id=ICEFLOWER"
+          }
+        ]
+      },
+      {
+        "name":"Desert",
+        "values": [
+          {
+            "name":"Orange Flower"
+            "link":"flower?id=ORANGEFLOWER"
+          },
+          {
+            "name":"Yellow Flower"
+            "link":"flower?id=YELLOWFLOWER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name":"Tools",
+    "dropdown":true,
+    "subcategories": [
+      {
+        "name":"Basic",
+        "values": [
+          {
+            "name":"Basic Racket"
+            "link":"tool?id=BASICRACKET"
+          }
+        ]
+      },
+      {
+        "name":"Tier 1",
+        "values": [
+          {
+            "name":"Flower Wand"
+            "link":"flower?id=FLOWERWAND"
+          },
+          {
+            "name":"Cobalt Whip"
+            "link":"flower?id=COBALTWHIP"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name":"Updates",
+    "dropdown":true,
+    "subcategories": [
+      {
+        "name":"Updates",
+        "values": [
+          {
+            "name":"v1.0"
+            "link":"update?id=1.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name":"Levels",
+    "dropdown":false,
+    "link":"levels"
+  }
+]
