@@ -14,7 +14,7 @@ navdata.onreadystatechange = function() {
        for (let i = 0; i < categories.categories.length; i++) {
          var li = document.createElement("li");
          li.classList.add("nav-item");
-         if (categories[i].dropdown = true) {
+         if (categories[i].dropdown == true) {
            li.classList.add("dropdown");
 
            //title
