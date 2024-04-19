@@ -53,6 +53,10 @@ navdata.onreadystatechange = function() {
              dividerli.appendChild(divider);
              ul.appendChild(dividerli);
            }
+
+           li.appendChild(a);
+           li.appendChild(ul);
+           console.log(li);
          }
        }
     }
