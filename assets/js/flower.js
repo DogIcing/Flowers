@@ -43,7 +43,7 @@ flower.onreadystatechange = function() {
             bodycol.classList.add("col-md-8");
 
             var bodydiv = document.createElement("div");
-            bodydiv.classlist.add("card-body");
+            bodydiv.classList.add("card-body");
 
             var title = document.createElement("h5");
             title.classList.add("card-title");
