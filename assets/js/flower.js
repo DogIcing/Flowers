@@ -34,7 +34,7 @@ flower.onreadystatechange = function() {
             row.classList.add("g-0");
 
             var imgcol = document.createElement("div");
-            imgdiv.classList.add("col-md-4");
+            imgcol.classList.add("col-md-4");
 
             var img = document.createElement("img");
             img.setAttribute("src", flowerdata[flowerdata[id].related[ii]].image_url);
