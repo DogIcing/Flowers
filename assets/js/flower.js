@@ -20,8 +20,55 @@ flower.onreadystatechange = function() {
             itemName.innerHTML = flowerdata[id].drops[i].item;
             rate.innerHTML = flowerdata[id].drops[i].rate;
         }
+
+        for (let ii = 0; ii < flowerdata[id].related.length; ii++) {
+            var col = document.createElement("div");
+            col.classList.add("col");
+
+            var card = document.createElement("div");
+            card.classList.add("card");
+            card.classList.add("mb-3");
+
+            var row = document.createElement("div");
+            row.classList.add("row");
+            row.classList.add("g-0");
+
+            var imgcol = document.createElement("div");
+            imgdiv.classList.add("col-md-4");
+
+            var img = document.createElement("img");
+            img.setAttribute("src", flowerdata[flowerdata[id].related[ii]].image_url);
+
+            var bodycol = document.createElement("div");
+            bodycol.classList.add("col-md-8");
+
+            var bodydiv = document.createElement("div");
+            bodydiv.classlist.add("card-body");
+
+            var title = document.createElement("h5");
+            title.classList.add("card-title");
+            title.innerHTML = flowerdata[flowerdata[id].related[ii]].title;
+
+            var p = document.createElement("p");
+            p.classList.add("card-text");
+            p.innerHTML = flowerdata[flowerdata[id].related[ii]].description;
+
+            bodydiv.appendChild(title);
+            bodydiv.appendChild(p);
+            bodycol.appendChild(bodydiv);
+
+            imgcol.appendChild(img);
+
+            row.appendChild(imgcol);
+            row.appendChild(bodycol);
+
+            card.appendChild(row);
+
+            col.appendChild(card);
+
+            document.getElementById("related").appendChild(col);
+        }
     }
 };
 flower.open("GET", "/Flowers/data/flowers.json", true);
 flower.send();
-// retry
