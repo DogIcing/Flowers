@@ -25,9 +25,11 @@ flower.onreadystatechange = function() {
             var col = document.createElement("div");
             col.classList.add("col");
 
-            var card = document.createElement("div");
+            var card = document.createElement("a");
             card.classList.add("card");
             card.classList.add("mb-3");
+            card.classList.add("text-decoration-none");
+            card.setAttribute("href", "flower?id=" + flowerdata[id].related[ii])
 
             var row = document.createElement("div");
             row.classList.add("row");
@@ -38,6 +40,8 @@ flower.onreadystatechange = function() {
 
             var img = document.createElement("img");
             img.setAttribute("src", flowerdata[flowerdata[id].related[ii]].image_url);
+            img.classList.add("img-fluid");
+            img.classList.add("m-2");
 
             var bodycol = document.createElement("div");
             bodycol.classList.add("col-md-8");
