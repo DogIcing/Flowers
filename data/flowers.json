@@ -15,6 +15,37 @@
             }
         ],
         "related" : [
+            "REDFLOWER"
+        ]
+    },
+    "REDFLOWER": {
+        "title" : "Red Flower",
+        "card_title" : "Red Flower",
+        "image_url" : "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/14852071-971D-4D50-B9E6-2F53D439614F.png?cache=1702833345000",
+        "colour" : "<span class=\"badge bg-danger\">Red</span>",
+        "type" : "<span class=\"badge type-basic\">Basic</span>",
+        "found_in" : "<span class=\"badge type-basic\">Plains</span><span class=\"badge type-desert\">Desert</span>",
+        "price" : 35,
+        "description":"The red flower is an uncommon flower that spawns in the plains and the desert. It has 2 amount of HP and spawns at a medium/large size. It can drop a red petal and other materials (see below).",
+        "drops" : [
+            {
+                "item":"Red Petal",
+                "rate":"10%"
+            },
+            {
+                "item":"Red Dye <span class=\"badge type-desert\">Desert</span>",
+                "rate":"0.40%"
+            },
+            {
+                "item":"Leaf",
+                "rate":"14.29%"
+            },
+            {
+                "item":"Prism Petal",
+                "rate":"0.5%"
+            }
+        ],
+        "related" : [
             "ICEFLOWER"
         ]
     }
