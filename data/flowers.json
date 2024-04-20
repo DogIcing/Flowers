@@ -25,7 +25,7 @@
         "colour" : "<span class=\"badge bg-danger\">Red</span>",
         "type" : "<span class=\"badge type-basic\">Basic</span>",
         "found_in" : "<span class=\"badge type-basic\">Plains</span><span class=\"badge type-desert\">Desert</span>",
-        "price" : 35,
+        "price" : 3,
         "description":"The red flower is a common flower that spawns in the plains and the desert. It has 2 amount of HP and spawns at a medium/large size. It can drop a red petal and other materials (see below).",
         "drops" : [
             {
