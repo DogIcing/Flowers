@@ -123,8 +123,12 @@
                     "name": "Updates",
                     "values": [
                         {
-                            "name": "v1.0",
-                            "link": "update?id=1.0"
+                            "name": "HQ Update",
+                            "link": "updates/hq.html"
+                        },
+                        {
+                            "name": "Bugs",
+                            "link": "updates/bugs.html"
                         }
                     ]
                 }
