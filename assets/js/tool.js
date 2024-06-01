@@ -11,6 +11,7 @@ tool.onreadystatechange = function() {
        document.getElementById("base").innerHTML = tooldata[id].base_dmg;
        document.getElementById("green").innerHTML = tooldata[id].green_multi;
        document.getElementById("blue").innerHTML = tooldata[id].blue_multi;
+       document.getElementById("red").innerHTML = tooldata[id].red_multi;
        document.getElementById("price").innerHTML = tooldata[id].price;
        document.getElementById("description").innerHTML = tooldata[id].description;
 
