@@ -68,5 +68,5 @@ tool.onreadystatechange = function() {
         }
     }
 };
-tool.open("GET", "/tools/data/tools.json", true);
+tool.open("GET", "/Flowers/data/tools.json", true);
 tool.send();
