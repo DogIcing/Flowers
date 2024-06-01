@@ -105,11 +105,11 @@
                     "values": [
                         {
                             "name": "Flower Wand",
-                            "link": "flower?id=FLOWERWAND"
+                            "link": "tool?id=FLOWERWAND"
                         },
                         {
                             "name": "Cobalt Whip",
-                            "link": "flower?id=COBALTWHIP"
+                            "link": "tool?id=COBALTWHIP"
                         }
                     ]
                 }
