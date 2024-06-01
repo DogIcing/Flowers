@@ -58,7 +58,7 @@
       "colour": "<span class=\"badge bg-primary\">Blue</span>",
       "type": "<span class=\"badge type-basic\">Basic</span>",
       "found_in": "<span class=\"badge type-basic\">Plains</span><span class=\"badge type-snow\">Snowy Plains</span>",
-      "price": 3,
+      "price": 25,
       "description": "The blue flower is a flower that spawns in the plains and the snowy plains. It has 10 amount of HP and spawns at a size range of 4-7. It can drop a blue petal and other materials (see below).",
       "drops": [
         {
@@ -91,7 +91,7 @@
       "colour": "<span class=\"badge bg-success\">Green</span>",
       "type": "<span class=\"badge type-basic\">Basic</span>",
       "found_in": "<span class=\"badge type-basic\">Plains</span>",
-      "price": 3,
+      "price": 5,
       "description": "The red flower is a flower that spawns in the plains and the desert. It has 4 amount of HP and spawns at a size range of 9-14. It can drop a green petal and other materials (see below).",
       "drops": [
         {
@@ -120,7 +120,7 @@
       "colour": "<span class=\"badge type-purple\">Purple</span>",
       "type": "<span class=\"badge type-basic\">Basic</span>",
       "found_in": "<span class=\"badge type-basic\">Plains</span><span class=\"badge type-swamp\">Swamp</span>",
-      "price": 3,
+      "price": 6,
       "description": "The purple flower is a flower that spawns in the plains and the swamp. It has 3 amount of HP and spawns at a size range of 8-12. It can drop a purple petal and other materials (see below).",
       "drops": [
         {
@@ -149,7 +149,7 @@
       "colour": "<span class=\"badge type-purple\">Purple</span>",
       "type": "<span class=\"badge type-basic\">Basic</span>",
       "found_in": "<span class=\"badge type-basic\">Unknown Territory</span>",
-      "price": 3,
+      "price": 15,
       "description": "The funk flower is a flower that spawns in the unknown territory. It has 15 amount of HP and spawns at a size range of 4-14. It can drop a purple petal and other materials (see below).",
       "drops": [
         {
@@ -180,7 +180,7 @@
       "colour": "<span class=\"badge bg-danger\">Red</span>",
       "type": "<span class=\"badge bg-success\">Tulip</span>",
       "found_in": "<span class=\"badge bg-success\">Tulip Field</span>",
-      "price": 3,
+      "price": 7,
       "description": "The red tulip is a flower that spawns in the tulip fields. It has 7 amount of HP and spawns at a size range of 5-7. It does not drop any items or materisls.",
       "drops": [],
       "related": [
@@ -195,7 +195,7 @@
       "colour": "<span class=\"badge bg-primary\">Blue</span>",
       "type": "<span class=\"badge bg-success\">Tulip</span>",
       "found_in": "<span class=\"badge bg-success\">Tulip Field</span>",
-      "price": 3,
+      "price": 15,
       "description": "The blue tulip is a flower that spawns in the tulip fields. It has 9 amount of HP and spawns at a size range of 8-10. It does not drop any items or materisls.",
       "drops": [],
       "related": [
@@ -210,7 +210,7 @@
       "colour": "<span class=\"badge bg-warning\">Yellow</span>",
       "type": "<span class=\"badge bg-success\">Tulip</span>",
       "found_in": "<span class=\"badge bg-success\">Tulip Field</span>",
-      "price": 3,
+      "price": 30,
       "description": "The yellow tulip is a flower that spawns in the tulip fields. It has 17 amount of HP and spawns at a size range of 12-15. It does not drop any items or materisls.",
       "drops": [],
       "related": [
@@ -225,7 +225,7 @@
       "colour": "<span class=\"badge type-purple\">Purple</span>",
       "type": "<span class=\"badge type-swamp\">Swamp</span>",
       "found_in": "<span class=\"badge type-swamp\">Swamp</span>",
-      "price": 3,
+      "price": 15,
       "description": "The poison flower is a flower that spawns in the swamp. It has 10 amount of HP and spawns at a size range of 7-12. It does not drop any items or materials.",
       "drops": [],
       "related": [
@@ -237,10 +237,10 @@
       "title": "Stink Flower",
       "card_title": "Stink Flower",
       "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/7BE15F9C-7A27-4B5F-B045-A531AA65728E.png?cache=1703994922000",
-      "colour": "<span class=\"badge type-success\">Green</span>",
+      "colour": "<span class=\"badge bg-success\">Green</span>",
       "type": "<span class=\"badge type-swamp\">Swamp</span>",
       "found_in": "<span class=\"badge type-swamp\">Swamp</span>",
-      "price": 3,
+      "price": 22,
       "description": "The stink flower is a flower that spawns in the swamp. It has 15 amount of HP and spawns at a size range of 13-16. It can drop toxic gas.",
       "drops": [
         {
@@ -260,7 +260,7 @@
       "colour": "<span class=\"badge bg-primary\">Blue</span>",
       "type": "<span class=\"badge type-snow\">Snow</span>",
       "found_in": "<span class=\"badge type-snow\">Snowy Plains</span>",
-      "price": 3,
+      "price": 28,
       "description": "The snow flower is a flower that spawns in the snowy plains. It has 20 amount of HP and spawns at a size range of 4-7. It can drop blue dye.",
       "drops": [
         {
@@ -279,7 +279,7 @@
       "colour": "<span class=\"badge bg-warning\">Yellow/Orange</span>",
       "type": "<span class=\"badge type-desert\">Desert</span>",
       "found_in": "<span class=\"badge type-desert\">Desert</span>",
-      "price": 3,
+      "price": 28,
       "description": "The orange flower is a flower that spawns in the desert. It has 25 amount of HP and spawns at a size range of 10-14. It can drop red dye.",
       "drops": [
         {
@@ -298,7 +298,7 @@
       "colour": "<span class=\"badge bg-warning\">Yellow</span>",
       "type": "<span class=\"badge type-desert\">Desert</span>",
       "found_in": "<span class=\"badge type-dessrt\">Desert</span>",
-      "price": 3,
+      "price": 35,
       "description": "The yellow flower is a flower that spawns in the desert. It has 30 amount of HP and spawns at a size range of 16-18. It can drop red dye.",
       "drops": [
         {
