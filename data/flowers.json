@@ -1,52 +1,313 @@
 {
     "ICEFLOWER": {
-        "title" : "Ice Flower",
-        "card_title" : "Ice Flower",
-        "image_url" : "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/CB8CFB7C-E6DC-43C2-A1E7-4DDF1F2EB6F2.png",
-        "colour" : "<span class=\"badge bg-primary\">Blue</span>",
-        "type" : "<span class=\"badge type-snow\">Snow</span>",
-        "found_in" : "<span class=\"badge type-snow\">Snowy Plains</span>",
-        "price" : 35,
-        "description":"The ice flower is an uncommon flower that spawns in the snowy plains. It has 28 amount of HP and spawns at a medium/large size. It can drop blue dye and other materials (see below). This flower was added in v0.6.",
-        "drops" : [
-            {
-                "item":"Blue Dye",
-                "rate":"0.40%"
-            }
-        ],
-        "related" : [
-            "REDFLOWER"
-        ]
+      "title": "Ice Flower",
+      "card_title": "Ice Flower",
+      "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/CB8CFB7C-E6DC-43C2-A1E7-4DDF1F2EB6F2.png",
+      "colour": "<span class=\"badge bg-primary\">Blue</span>",
+      "type": "<span class=\"badge type-snow\">Snow</span>",
+      "found_in": "<span class=\"badge type-snow\">Snowy Plains</span>",
+      "price": 35,
+      "description": "The ice flower is an uncommon flower that spawns in the snowy plains. It has 28 amount of HP and spawns at a medium/large size. It can drop blue dye and other materials (see below). This flower was added in v0.6.",
+      "drops": [
+        {
+          "item": "Blue Dye",
+          "rate": "0.40%"
+        }
+      ],
+      "related": [
+        "REDFLOWER"
+      ]
     },
     "REDFLOWER": {
-        "title" : "Red Flower",
-        "card_title" : "Red Flower",
-        "image_url" : "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/14852071-971D-4D50-B9E6-2F53D439614F.png?cache=1702833345000",
-        "colour" : "<span class=\"badge bg-danger\">Red</span>",
-        "type" : "<span class=\"badge type-basic\">Basic</span>",
-        "found_in" : "<span class=\"badge type-basic\">Plains</span><span class=\"badge type-desert\">Desert</span>",
-        "price" : 3,
-        "description":"The red flower is a common flower that spawns in the plains and the desert. It has 2 amount of HP and spawns at a medium/large size. It can drop a red petal and other materials (see below).",
-        "drops" : [
-            {
-                "item":"Leaf",
-                "rate":"14.29%"
-            },
-            {
-                "item":"Red Petal",
-                "rate":"10%"
-            },
-            {
-                "item":"Prism Petal",
-                "rate":"0.5%"
-            },
-                        {
-                "item":"Red Dye <span class=\"badge type-desert\">Desert</span>",
-                "rate":"0.40%"
-            }
-        ],
-        "related" : [
-            "ICEFLOWER"
-        ]
+      "title": "Red Flower",
+      "card_title": "Red Flower",
+      "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/14852071-971D-4D50-B9E6-2F53D439614F.png?cache=1702833345000",
+      "colour": "<span class=\"badge bg-danger\">Red</span>",
+      "type": "<span class=\"badge type-basic\">Basic</span>",
+      "found_in": "<span class=\"badge type-basic\">Plains</span><span class=\"badge type-desert\">Desert</span>",
+      "price": 3,
+      "description": "The red flower is a flower that spawns in the plains and the desert. It has 2 amount of HP and spawns at a medium/large size. It can drop a red petal and other materials (see below).",
+      "drops": [
+        {
+          "item": "Leaf",
+          "rate": "14.29%"
+        },
+        {
+          "item": "Red Petal",
+          "rate": "10%"
+        },
+        {
+          "item": "Prism Petal",
+          "rate": "0.5%"
+        },
+        {
+          "item": "Red Dye <span class=\"badge type-desert\">Desert</span>",
+          "rate": "0.40%"
+        }
+      ],
+      "related": [
+        "BLUEFLOWER",
+        "PURPLEFLOWER",
+        "GREENFLOWER"
+      ]
+    },
+    "BLUEFLOWER": {
+      "title": "Blue Flower",
+      "card_title": "Blue Flower",
+      "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/E5B6EAA2-86E1-4F35-85F8-ECAC57616AE3.png?cache=1702831214000",
+      "colour": "<span class=\"badge bg-primary\">Blue</span>",
+      "type": "<span class=\"badge type-basic\">Basic</span>",
+      "found_in": "<span class=\"badge type-basic\">Plains</span><span class=\"badge type-snow\">Snowy Plains</span>",
+      "price": 3,
+      "description": "The blue flower is a flower that spawns in the plains and the snowy plains. It has 10 amount of HP and spawns at a size range of 4-7. It can drop a blue petal and other materials (see below).",
+      "drops": [
+        {
+          "item": "Leaf",
+          "rate": "14.29%"
+        },
+        {
+          "item": "Blue Petal",
+          "rate": "3.33%"
+        },
+        {
+          "item": "Prism Petal",
+          "rate": "0.5%"
+        },
+        {
+          "item": "Blue Dye <span class=\"badge type-desert\">Snowy Plains</span>",
+          "rate": "0.40%"
+        }
+      ],
+      "related": [
+        "REDFLOWER",
+        "PURPLEFLOWER",
+        "GREENFLOWER"
+      ]
+    },
+    "GREENFLOWER": {
+      "title": "Green Flower",
+      "card_title": "Green Flower",
+      "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/38AC4F75-37A0-4C32-AE41-791388BA6595.png?cache=1702833785000",
+      "colour": "<span class=\"badge bg-success\">Green</span>",
+      "type": "<span class=\"badge type-basic\">Basic</span>",
+      "found_in": "<span class=\"badge type-basic\">Plains</span>",
+      "price": 3,
+      "description": "The red flower is a flower that spawns in the plains and the desert. It has 4 amount of HP and spawns at a size range of 9-14. It can drop a green petal and other materials (see below).",
+      "drops": [
+        {
+          "item": "Leaf",
+          "rate": "14.29%"
+        },
+        {
+          "item": "Green Petal",
+          "rate": "5%"
+        },
+        {
+          "item": "Prism Petal",
+          "rate": "0.5%"
+        }
+      ],
+      "related": [
+        "REDFLOWER",
+        "PURPLEFLOWER",
+        "BLUEFLOWER"
+      ]
+    },
+    "PURPLEFLOWER": {
+      "title": "Purple Flower",
+      "card_title": "Purple Flower",
+      "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/1D35D14A-DE0A-4FD9-A560-DBDF1122813A.png?cache=1702782741000",
+      "colour": "<span class=\"badge type-purple\">Purple</span>",
+      "type": "<span class=\"badge type-basic\">Basic</span>",
+      "found_in": "<span class=\"badge type-basic\">Plains</span><span class=\"badge type-swamp\">Swamp</span>",
+      "price": 3,
+      "description": "The purple flower is a flower that spawns in the plains and the swamp. It has 3 amount of HP and spawns at a size range of 8-12. It can drop a purple petal and other materials (see below).",
+      "drops": [
+        {
+          "item": "Leaf",
+          "rate": "14.29%"
+        },
+        {
+          "item": "Purple Petal",
+          "rate": "6.67%"
+        },
+        {
+          "item": "Prism Petal",
+          "rate": "0.5%"
+        }
+      ],
+      "related": [
+        "REDFLOWER",
+        "BLUEFLOWER",
+        "GREENFLOWER"
+      ]
+    },
+    "FUNKFLOWER": {
+      "title": "Funk Flower",
+      "card_title": "Funk Flower",
+      "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/2867D590-476B-403B-A973-FAC92A05DF38.png?cache=1702840493000",
+      "colour": "<span class=\"badge type-purple\">Purple</span>",
+      "type": "<span class=\"badge type-basic\">Basic</span>",
+      "found_in": "<span class=\"badge type-basic\">Unknown Territory</span>",
+      "price": 3,
+      "description": "The funk flower is a flower that spawns in the unknown territory. It has 15 amount of HP and spawns at a size range of 4-14. It can drop a purple petal and other materials (see below).",
+      "drops": [
+        {
+          "item": "Leaf",
+          "rate": "14.29%"
+        },
+        {
+          "item": "Purple Petal",
+          "rate": "6.67%"
+        },
+        {
+          "item": "Prism Petal",
+          "rate": "0.5%"
+        },
+        {
+          "item": "Red Dye <span class=\"badge type-desert\">Desert</span>",
+          "rate": "0.40%"
+        }
+      ],
+      "related": [
+        "PURPLEFLOWER"
+      ]
+    },
+    "REDTULIP": {
+      "title": "Red Tulip",
+      "card_title": "Red Tulip",
+      "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/400D5501-5686-4426-A46D-35CA1A56A7E1.png?cache=1702841569000",
+      "colour": "<span class=\"badge bg-danger\">Red</span>",
+      "type": "<span class=\"badge bg-success\">Tulip</span>",
+      "found_in": "<span class=\"badge bg-success\">Tulip Field</span>",
+      "price": 3,
+      "description": "The red tulip is a flower that spawns in the tulip fields. It has 7 amount of HP and spawns at a size range of 5-7. It does not drop any items or materisls.",
+      "drops": [],
+      "related": [
+        "BLUETULIP",
+        "YELLOWTULIP"
+      ]
+    },
+    "BLUETULIP": {
+      "title": "Blue Tulip",
+      "card_title": "Blue Tulip",
+      "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/6911DF30-F8A1-4291-B5C4-B8AABE7E89BD.png?cache=1702841570000",
+      "colour": "<span class=\"badge bg-primary\">Blue</span>",
+      "type": "<span class=\"badge bg-success\">Tulip</span>",
+      "found_in": "<span class=\"badge bg-success\">Tulip Field</span>",
+      "price": 3,
+      "description": "The blue tulip is a flower that spawns in the tulip fields. It has 9 amount of HP and spawns at a size range of 8-10. It does not drop any items or materisls.",
+      "drops": [],
+      "related": [
+        "REDTULIP",
+        "YELLOWTULIP"
+      ]
+    },
+    "YELLOWTULIP": {
+      "title": "Yellow Tulip",
+      "card_title": "Yellow Tulip",
+      "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/6E5F23E9-83E3-4CA9-A093-3C4779529016.png?cache=1703709456000",
+      "colour": "<span class=\"badge bg-warning\">Yellow</span>",
+      "type": "<span class=\"badge bg-success\">Tulip</span>",
+      "found_in": "<span class=\"badge bg-success\">Tulip Field</span>",
+      "price": 3,
+      "description": "The yellow tulip is a flower that spawns in the tulip fields. It has 17 amount of HP and spawns at a size range of 12-15. It does not drop any items or materisls.",
+      "drops": [],
+      "related": [
+        "BLUETULIP",
+        "REDTULIP"
+      ]
+    },
+    "POISONFLOWER": {
+      "title": "Poison Flower",
+      "card_title": "Poison Flower",
+      "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/BB15895F-CBA3-4C0A-9818-0C87CA882D02.png?cache=1703991352000",
+      "colour": "<span class=\"badge type-purple\">Purple</span>",
+      "type": "<span class=\"badge type-swamp\">Swamp</span>",
+      "found_in": "<span class=\"badge type-swamp\">Swamp</span>",
+      "price": 3,
+      "description": "The poison flower is a flower that spawns in the swamp. It has 10 amount of HP and spawns at a size range of 7-12. It does not drop any items or materials.",
+      "drops": [],
+      "related": [
+        "PURPLEFLOWER",
+        "STINKFLOWER"
+      ]
+    },
+    "STINKFLOWER": {
+      "title": "Stink Flower",
+      "card_title": "Stink Flower",
+      "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/7BE15F9C-7A27-4B5F-B045-A531AA65728E.png?cache=1703994922000",
+      "colour": "<span class=\"badge type-success\">Green</span>",
+      "type": "<span class=\"badge type-swamp\">Swamp</span>",
+      "found_in": "<span class=\"badge type-swamp\">Swamp</span>",
+      "price": 3,
+      "description": "The stink flower is a flower that spawns in the swamp. It has 15 amount of HP and spawns at a size range of 13-16. It can drop toxic gas.",
+      "drops": [
+        {
+          "item": "Toxic Gas",
+          "rate": "3.33%"
+        }
+      ],
+      "related": [
+        "PURPLEFLOWER",
+        "POISONFLOWER"
+      ]
+    },
+    "SNOWFLOWER": {
+      "title": "Snow Flower",
+      "card_title": "Snow Flower",
+      "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/3B675B46-A5E3-4699-897D-EAC40288F3B5.png?cache=1703880580000",
+      "colour": "<span class=\"badge bg-primary\">Blue</span>",
+      "type": "<span class=\"badge type-snow\">Snow</span>",
+      "found_in": "<span class=\"badge type-snow\">Snowy Plains</span>",
+      "price": 3,
+      "description": "The snow flower is a flower that spawns in the snowy plains. It has 20 amount of HP and spawns at a size range of 4-7. It can drop blue dye.",
+      "drops": [
+        {
+          "item": "Blue Dye <span class=\"badge type-desert\">Snowy Plains</span>",
+          "rate": "0.40%"
+        }
+      ],
+      "related": [
+        "ICEFLOWER"
+      ]
+    },
+    "ORANGEFLOWER": {
+      "title": "Orange Flower",
+      "card_title": "Orange Flower",
+      "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/11F7D365-4ED6-4E3F-BD69-0308303D155A.png?cache=1705164870000",
+      "colour": "<span class=\"badge bg-warning\">Yellow/Orange</span>",
+      "type": "<span class=\"badge type-desert\">Desert</span>",
+      "found_in": "<span class=\"badge type-desert\">Desert</span>",
+      "price": 3,
+      "description": "The orange flower is a flower that spawns in the desert. It has 25 amount of HP and spawns at a size range of 10-14. It can drop red dye.",
+      "drops": [
+        {
+          "item": "Red Dye <span class=\"badge type-desert\">Desert</span>",
+          "rate": "0.40%"
+        }
+      ],
+      "related": [
+        "YELLOWFLOWER"
+      ]
+    },
+    "YELLOWFLOWER": {
+      "title": "Yellow Flower",
+      "card_title": "Yellow Flower",
+      "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/A796B4DC-85FE-4A98-A357-A221C85861F7.png?cache=1705164871000",
+      "colour": "<span class=\"badge bg-warning\">Yellow</span>",
+      "type": "<span class=\"badge type-desert\">Desert</span>",
+      "found_in": "<span class=\"badge type-dessrt\">Desert</span>",
+      "price": 3,
+      "description": "The yellow flower is a flower that spawns in the desert. It has 30 amount of HP and spawns at a size range of 16-18. It can drop red dye.",
+      "drops": [
+        {
+          "item": "Red Dye <span class=\"badge type-desert\">Desert</span>",
+          "rate": "0.40%"
+        }
+      ],
+      "related": [
+        "ORANGEFLOWER"
+      ]
     }
-}
+  }
