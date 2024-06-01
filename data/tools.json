@@ -1,0 +1,47 @@
+{
+  "BASICRACKET": {
+      "title": "Basic Racket",
+      "card_title": "Basic Racket",
+      "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/40722D6C-34D7-46A0-9BAC-28D120074779.png?cache=1702787508000",
+      "base_dmg": "1x",
+      "green_multi": "None",
+      "blue_multi": "None",
+      "red_multi": "None",
+      "price": "Free",
+      "description": "The basic racket is the first racket you receive in the game.",
+      "related": [
+        "FLOWERWAND",
+        "COBALTWHIP"
+      ]
+    },
+    "FLOWERWAND": {
+      "title": "Flower Wand",
+      "card_title": "Flower Wand",
+      "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/A6895130-7278-45C7-929E-C6BF0CB062EB.png?cache=1703625698000",
+      "base_dmg": "1.5x",
+      "green_multi": "1.5x",
+      "blue_multi": "0.8x",
+      "red_multi": "None",
+      "price": "2500",
+      "description": "Purchasable for 2500 coins.",
+      "related": [
+        "BASICRACKET",
+        "COBALTWHIP"
+      ]
+    },
+    "COBALTWHIP": {
+      "title": "Cobalt Whip",
+      "card_title": "Cobalt Whip",
+      "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/328A6FAF-A601-4E2B-A111-95DBCD502F23.png?cache=1703713867000",
+      "base_dmg": "1.5x",
+      "green_multi": "None",
+      "blue_multi": "1.7x",
+      "red_multi": "0.5x",
+      "price": "15x <a href=\"flower.html?id=BLUEFLOWER\">Blue Flower</a> and 2000",
+      "description": "Requires 2000 coins and 15 blue flowers",
+      "related": [
+        "BASICRACKET",
+        "FLOWERWAND"
+      ]
+    }
+}
