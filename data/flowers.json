@@ -163,10 +163,6 @@
         {
           "item": "Prism Petal",
           "rate": "0.5%"
-        },
-        {
-          "item": "Red Dye <span class=\"badge type-desert\">Desert</span>",
-          "rate": "0.40%"
         }
       ],
       "related": [
@@ -264,7 +260,7 @@
       "description": "The snow flower is a flower that spawns in the snowy plains. It has 20 amount of HP and spawns at a size range of 4-7. It can drop blue dye.",
       "drops": [
         {
-          "item": "Blue Dye <span class=\"badge type-desert\">Snowy Plains</span>",
+          "item": "Blue Dye <span class=\"badge type-snow\">Snowy Plains</span>",
           "rate": "0.40%"
         }
       ],
@@ -276,7 +272,7 @@
       "title": "Orange Flower",
       "card_title": "Orange Flower",
       "image_url": "https://hopscotch-images.s3.amazonaws.com/production/images/project-images/11F7D365-4ED6-4E3F-BD69-0308303D155A.png?cache=1705164870000",
-      "colour": "<span class=\"badge bg-warning\">Yellow/Orange</span>",
+      "colour": "<span class=\"badge bg-warning\">Orange</span>",
       "type": "<span class=\"badge type-desert\">Desert</span>",
       "found_in": "<span class=\"badge type-desert\">Desert</span>",
       "price": 28,
