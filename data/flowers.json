@@ -92,7 +92,7 @@
       "type": "<span class=\"badge type-basic\">Basic</span>",
       "found_in": "<span class=\"badge type-basic\">Plains</span>",
       "price": 5,
-      "description": "The red flower is a flower that spawns in the plains and the desert. It has 4 amount of HP and spawns at a size range of 9-14. It can drop a green petal and other materials (see below).",
+      "description": "The green flower is a flower that spawns in the plains. It has 4 amount of HP and spawns at a size range of 9-14. It can drop a green petal and other materials (see below).",
       "drops": [
         {
           "item": "Leaf",
